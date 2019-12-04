@@ -1,0 +1,123 @@
+@font-face {
+	font-family: OpenSans;
+	src: url(sources/fonts/OpenSans-Regular.woff);
+	     font-style: normal;
+	     font-weight: 400;
+}
+
+body { 
+	font-family: OpenSans;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+
+div {
+   box-sizing: border-box;
+}
+
+.container {
+	width:  1530px;
+	margin: 0 auto;
+}
+
+.head {
+    background-image: url(sources/img/football_1920.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1280px;
+    width: 100%;
+
+
+}
+
+.head:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,1);
+  z-index: 1;
+  opacity: 0.75;
+  background-color: #191970;
+  
+}
+
+h1 {
+	font-size: 60px;
+	color: #fff;
+
+	
+}
+
+
+.content_header {
+	font-family: OpenSans;
+    margin: 0;
+    padding-top: 500px;
+    padding-left: 195px;
+    
+}
+
+.content_header2 {
+	font-family: OpenSans;
+	margin: 0;
+	padding-left: 645px;
+	
+
+}
+
+.svg_text1 {
+	position: absolute;
+	height: 50px;
+	width: 40px;
+	margin-left: 340px;
+	margin-top: 340px;
+	fill: #fff;
+
+}
+
+.svg_text:hover {
+	position: absolute; 
+	width: 100px;
+	height: 47px;
+    margin-left: 36%;
+    margin-top: 48px;
+    fill: #fff;
+
+}
+
+.svg_text2 {
+	position: absolute; 
+	width: 100px;
+	height: 47px;
+    margin-left: 36%;
+    margin-top: 48px;
+    fill: #fff;
+}
+
+
+
+.radius { 
+  background: #7B68EE; 
+  border: 2px solid black; 
+  padding: 2px; 
+  margin-top: 350px; 
+  width: 310px;
+  height: 5em;
+  margin-left: 300px;
+  position: relative;
+}
+
+li {
+	list-style-type: none;
+}
+ol {
+	padding-left: 17%;
+	margin-left: 17%;
+}
