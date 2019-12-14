@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: OpenSans;
 	src: url(sources/fonts/OpenSans-Regular.woff);
@@ -51,8 +52,15 @@ div {
 h1 {
 	font-size: 60px;
 	color: #fff;
+}
 
-	
+header li {
+	list-style-type: none;
+
+}
+
+ol {
+	margin-left: 80px;
 }
 
 
@@ -75,14 +83,14 @@ h1 {
 .svg_text1 {
 	position: absolute;
 	height: 50px;
-	width: 40px;
-	margin-left: 340px;
-	margin-top: 340px;
+	width: 50px;
+	left: 0;
+	top: 0;
 	fill: #fff;
 
 }
 
-.svg_text:hover {
+.svg_text {
 	position: absolute; 
 	width: 100px;
 	height: 47px;
@@ -94,10 +102,10 @@ h1 {
 
 .svg_text2 {
 	position: absolute; 
-	width: 100px;
-	height: 47px;
-    margin-left: 36%;
-    margin-top: 48px;
+	width: 50px;
+	height: 50px;
+    left: 0;
+    top: 0;
     fill: #fff;
 }
 
@@ -112,12 +120,43 @@ h1 {
   height: 5em;
   margin-left: 300px;
   position: relative;
+  color: #fff;
 }
 
-li {
-	list-style-type: none;
+.radius2 {
+  background: #7B68EE; 
+  border: 2px solid black; 
+  padding: 2px; 
+  top: 1;
+  width: 310px;
+  height: 5em;
+  margin-left: 700px;
+  position: absolute;
+  color: #fff;
 }
-ol {
-	padding-left: 17%;
-	margin-left: 17%;
+
+
+/* секция1 */ 
+
+h2 {
+	font-size: 60px;
+}
+
+.content_s1 {
+	display: flex;
+	flex-direction: row-reverse;
+	list-style-type: none;
+	margin-right: 420px;
+}
+
+.content_s2 {
+	display: flex;
+	flex-direction: column;
+	
+	align-self: center;
+    
+}
+
+.content_atlets, p, h3 {
+margin-left: 400px;
 }
