@@ -19,8 +19,10 @@ div {
 }
 
 .container {
-	width:  1530px;
-	margin: 0 auto;
+    width: 1530px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .head {
@@ -127,12 +129,16 @@ ol {
   background: #7B68EE; 
   border: 2px solid black; 
   padding: 2px; 
-  top: 1;
+  margin-top: 350px;
   width: 310px;
   height: 5em;
-  margin-left: 700px;
-  position: absolute;
+  margin-left: 200px;
+  position: relative;
   color: #fff;
+}
+
+.radius3 {
+	display: flex;
 }
 
 
@@ -146,7 +152,7 @@ h2 {
 	display: flex;
 	flex-direction: row-reverse;
 	list-style-type: none;
-	margin-right: 420px;
+	margin-right: 450px;
 }
 
 .content_s2 {
@@ -157,6 +163,19 @@ h2 {
     
 }
 
-.content_atlets, p, h3 {
-margin-left: 400px;
+.content_atlets, {
+	padding-left: 1300px;
 }
+
+.connection1 {
+	padding-left: 1300px;
+
+}
+
+.collabrotation1 {
+	padding-left: 1300px;
+}
+
+.growth1 {
+	padding-left: 1300px;
+
